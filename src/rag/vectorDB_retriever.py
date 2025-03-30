@@ -1,8 +1,8 @@
 from typing import Union
 from langchain_chroma import Chroma
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_openai import OpenAIEmbeddings
+# from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_openai import OpenAIEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.retrievers import BM25Retriever
